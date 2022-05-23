@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "distube": "^2.8.15",
+    "fs": "^0.0.1-security",
+    "parse-ms": "^3.0.0"
+  }
+}
