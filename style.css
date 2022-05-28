@@ -127,7 +127,7 @@ a:visited {
     text-align: center;
     margin: auto;
     width: 100%;
-    height: 90%;
+    height: 80%;
     background-image: linear-gradient(rgba(173, 84, 224, 0.541),rgba(207, 219, 28, 0.486)),url(bigh.gif);
     background-size: cover;
     background-position: center;
@@ -136,7 +136,7 @@ a:visited {
 .fuckingasshole{
     display: flex;
     justify-content: space-between;
-    margin: 300px 0 30px;
+    margin: 130px 0 30px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
  
@@ -145,7 +145,7 @@ a:visited {
     border: 5px #fff;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     flex-basis: 35%;
-    font-size: 30;
+    font-size: 27;
 }
 
 .text{
@@ -345,4 +345,42 @@ font-size: larger;
 .noHover{
     pointer-events: none;
 }
-    
+ 
+
+.wow{
+font-size: 20;
+text-align: bottom;
+  width: 300px;
+margin: 625px;
+margin-right: 40px;
+margin-top: 625px;
+color: rgba(134, 212, 128, 1);
+}
+   
+.harrow {
+  border: solid #bda80b;
+ border-width: 0 9px 9px 0;
+ display: inline-block;
+  padding: 9px;
+margin-left: 97px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.fuckingasshol{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 0 30px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.4th{
+ color: rgba(31, 56, 141, 0.904);
+    border: 5px #fff;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    flex-basis: 35%;
+    font-size: 30;
+}
