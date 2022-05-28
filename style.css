@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+
+a {
+  background-color: transparent;
+}
+
+a:visited {
+  background-color: yellow;
+  color: hotpink;
+
+}
+.what{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(21, 55, 248, 0.699),rgba(43, 192, 29, 0.486)),url(bruh.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.329);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container ul li a{
+    color: rgb(70, 231, 38);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20;
+    position: relative;
+}
+.container ul li::after{
+    content: '';
+    height: 5px;
+    width: 0;
+    background: brown;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.3s;
+}
+.container ul li:hover::after{
+    width: 100%;
+}
+
+
+.menu{
+    color: rgba(163, 63, 194, 0.582);
+    font-size: 32px;
+}
+
+.test{
+    animation:blinkingText 0.4s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(190, 35, 35);    }
+    49%{    color: rgb(15, 201, 15); }
+    60%{    color: rgb(18, 15, 201); }
+    99%{    color: rgb(216, 39, 216);  }
+    100%{   color: rgb(201, 31, 40);    }
+}
+
+.bruh{
+    width: 100%;
+    position: absolute;
+    top: 29%;
+    bottom: 71%;
+    text-align: center;
+    font-size: 65;
+    color: rgb(255, 255, 255);
+}
+
+
+.bruh h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bruh p{
+    margin: 25px 0 80px;
+    font-size: 18px;
+}
+
+.bruh p2{
+    margin: 40px 0 70px;
+    font-size: 23px;
+}
+
+.bruh a{
+    text-align: center;
+    display:inline-block;
+    color:rgba(252, 243, 243, 0.479);
+    border: 3px solid;
+    padding: 10px 40px;
+    font-size: 55;
+    margin: 20px 0 20px;
+}
+
+.bruh a:hover{
+    background: rgba(44, 221, 74, 0.521);
+    margin: 25px;
+    transition: 0.3s;
+}
+
+.privacy{
+    font-size: 14;
+    text-align: right;
+}
+
+.infohhh{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(rgba(173, 84, 224, 0.541),rgba(207, 219, 28, 0.486)),url(bigh.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+.fuckingasshole{
+    display: flex;
+    justify-content: space-between;
+    margin: 130px 0 30px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+ 
+.fuckingshitkeepsbreaking{
+    color: rgba(31, 56, 141, 0.904);
+    border: 5px #fff;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    flex-basis: 35%;
+    font-size: 27;
+}
+
+.text{
+    font-size: 20px;
+    text-align: center;
+    background-color: olive;
+    background-size: cover;
+    background-position: center;
+}
+
+.useless{
+    animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(190, 35, 35);    }
+    39%{    color: rgb(15, 201, 15); }
+    50%{    color: rgb(47, 203, 214); }
+    70%{    color: rgb(18, 15, 201); }
+    99%{    color: rgb(216, 39, 216);  }
+    100%{   color: rgb(201, 31, 40);    }
+}
+
+.threat{
+    margin: 40px 0 0px;
+    font-size: 30;
+}
+
+.threatbad:hover{
+    opacity: 0%;
+    transition: 0.2s;
+}
+
+.hreason{
+    width: 100%;
+    height: 100%;
+    margin:  7px 0 30px;
+    text-align: center;
+    background: linear-gradient(rgba(192, 129, 46, 0.562),rgba(218, 40, 48, 0.644)),url(hsun.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 20;
+}
+
+.whyh{
+    margin:  30px 0 30px;
+    font-size: 30px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width: 100%;
+
+}
+
+.money{
+    margin: 40px 0 30px;
+}
+
+.fuck{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(248, 188, 21, 0.699)rgba(192, 29, 29, 0.486)),url(hsun.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.shit{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(144 94 47);
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.shit ul li a{
+    color: rgb(38, 73, 231);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.shit ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20;
+    position: relative;
+}
+.shit ul li::after{
+    content: '';
+    height: 5px;
+    width: 0;
+    background: rgb(42, 112, 165);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.3s;
+}
+.shit ul li:hover::after{
+    width: 100%;
+}
+
+
+.bitch{
+        color: rgba(194, 181, 63, 0.582);
+       font-size: 32px;   
+}
+
+.okcool{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(192, 129, 46, 0.562),rgba(218, 40, 48, 0.644)),url(hmoon.png);
+    background-size:cover;
+    background-position: center;
+    font-size: 20px;
+}
+
+
+.garfiledf{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40;
+}
+
+.thread{
+    background: linear-gradient(-60deg, #bd2020, #000000);
+    background-size: 400% 400%;
+    animation: woah 0.8s ease-in-out infinite;
+    width: 100%;
+    color: #fff;
+    height: 100%;
+    border: 5px #fff;
+}
+@keyframes woah {
+   0%{
+       background-position: 0 50%;
+   }
+   20%{
+    background-position: 30% 50%;
+}
+40%{
+    background-position: 50% 50%;
+}
+60%{
+    background-position: 70% 50%;
+}
+80%{
+    background-position: 100% 50%;
+}
+100%{
+    background-position: 0 50%;
+}
+}
+
+.yesno{
+margin: 30px 0 10px;
+display: inline-block;
+text-align: center;
+padding: 10px 120px;
+font-size: larger;
+}
+
+
+.yesno a{
+    color: rgb(165, 40, 40);
+}
+
+
+.thisissoinefficientbutidontknowwhattodo{
+    transition: 0.4s;   
+}
+
+.yesno:hover{
+    background-color: #f81c1cbb;
+    font-size: 60;
+    transition: 0.5s;
+}
+
+.noyes{
+    margin: 30px 0 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 120px;
+    font-size: larger;
+    }
+    
+    .noyes a{
+        color: rgb(165, 40, 40);
+    }
+
+    .noyes:hover{
+        background-color: #f81c1cbb;
+        font-size: 60;
+        transition: 0.5s;
+    }
+
+
+.noHover{
+    pointer-events: none;
+}
+ 
+
+.wow{
+font-size: 20;
+text-align: bottom;
+  width: 300px;
+margin: 625px;
+margin-right: 40px;
+margin-top: 625px;
+color: rgba(134, 212, 128, 1);
+}
+   
+.harrow {
+  border: solid #bda80b;
+ border-width: 0 9px 9px 0;
+ display: inline-block;
+  padding: 9px;
+margin-left: 97px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.fuckingasshol{
+    display: flex;
+    justify-content: space-between;
+    margin: 200px 0 30px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.4th{
+ color: rgba(31, 56, 141, 0.904);
+    border: 5px #fff;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    flex-basis: 35%;
+    font-size: 30;
+}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
